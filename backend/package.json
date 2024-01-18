@@ -2,8 +2,10 @@
   "name": "b2b-app-backend",
   "version": "0.0.1",
   "description": "for testing purpose",
-  "main": "app.js",
+  "main": "src/bin/www",
   "scripts": {
+    "start": "node --env-file=.env.production",
+    "start:dev": "nodemon --env-file=.env.development",
     "test": "jest"
   },
   "repository": {
@@ -35,5 +37,9 @@
     "nodemon": "^3.0.3",
     "sequelize-cli": "^6.6.2",
     "supertest": "^6.3.4"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
   }
 }
