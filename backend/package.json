@@ -1,0 +1,24 @@
+{
+  "name": "b2b-app-backend",
+  "version": "0.0.1",
+  "description": "for testing purpose",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tianbuyung/b2b-app.git"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express"
+  ],
+  "author": "Septian Maulana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tianbuyung/b2b-app/issues"
+  },
+  "homepage": "https://github.com/tianbuyung/b2b-app#readme"
+}
