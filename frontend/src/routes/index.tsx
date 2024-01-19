@@ -1,6 +1,6 @@
 import { createBrowserRouter, redirect } from "react-router-dom";
 
-import { Dashboard, Layout, Login, Register } from "../pages";
+import { Dashboard, Layout, Login, Logout, Register } from "../pages";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Dashboard />,
+      },
+      {
+        path: "/logout",
+        element: <Logout />,
       },
     ],
   },
