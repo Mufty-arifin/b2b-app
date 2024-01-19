@@ -59,17 +59,17 @@ const Login = () => {
             ) : (
               <>
                 <div>
-                  <span className="flex justify-center">
+                  <div className="flex items-center">
                     <img
                       className="h-10 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                      src="https://img.freepik.com/free-vector/simple-illustration-logo-financial-company-vector-logo-design_460848-16805.jpg?w=1800&t=st=1705628566~exp=1705629166~hmac=ea9cf731afb6c9cd1c9d8884d7239af15c37387b827c64c517028ed9241c72ae"
                       alt="Your Company"
                     />
 
-                    <p className="ml-2 text-3xl font-bold leading-9 tracking-tight text-gray-900">
+                    <h1 className="ml-2 text-3xl font-bold leading-9 text-center tracking-tight text-gray-900">
                       B2B Portal
-                    </p>
-                  </span>
+                    </h1>
+                  </div>
 
                   <h2 className="mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900">
                     Login to your account
@@ -93,7 +93,7 @@ const Login = () => {
                             type="email"
                             autoComplete="email"
                             required
-                            className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            className="block w-full rounded-md border-0 px-2 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             value={loginForm.email}
                             onChange={onChangeHandler}
                           />
@@ -114,7 +114,7 @@ const Login = () => {
                             type="password"
                             autoComplete="current-password"
                             required
-                            className="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                            className="block w-full rounded-md border-0 px-2 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             value={loginForm.password}
                             onChange={onChangeHandler}
                           />
